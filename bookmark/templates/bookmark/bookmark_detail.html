@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% extends 'base.html' %}
+    <title>{% block title %}Detail{% endblock %}</title>
+</head>
+<body>
+{% block content %}
+    {{object.site_name}}<br/>
+    {{object.url}}
+{% endblock %}
+</body>
+</html>
